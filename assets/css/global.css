@@ -43,3 +43,11 @@ body {
     list-style: none;
 
 }
+.infoDetalhada {
+    display: none;
+  }
+  
+.infoDetalhada .visivel {
+    display: block;
+  }
+  

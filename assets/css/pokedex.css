@@ -5,7 +5,30 @@
     padding: 1rem;
     border-radius: 1rem;
 }
-
+.pokemon {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    position: relative;
+  }
+  
+  .pokemon:hover {
+    transform: scale(1.05);
+  }
+  
+  .infoDetalhada {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 5px;
+  }
+  
 .normal {
     background-color: #a6a877;
 }
